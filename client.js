@@ -20,7 +20,7 @@ const connect = function() {
   conn.on("connect", () => {
     console.log("Successfully Connected!");
     conn.write("Name: 4G");
-    conn.write("Move: up");
+    // conn.write("Move: up");
     // setInterval(() => {
     //   conn.write("Move: up");
     // }, 500);
